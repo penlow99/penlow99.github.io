@@ -29,13 +29,13 @@ function fadeFunction() {
                                         </a>
                                     </button>
                                     <span>&nbsp;&nbsp;</span>
-                                    <a href="https://github.com/penlow99/">
+                                    <a href="https://github.com/penlow99/" target="_blank">
                                         <button type="button" class="button" id="GitHub">
                                             <span class="iconify" data-icon="simple-icons:github" data-inline="false"></span>                   
                                         </button>
                                     </a>
                                     <span>&nbsp;&nbsp;</span>
-                                    <a href="https://www.linkedin.com/in/patrick-enlow-tech/">
+                                    <a href="https://www.linkedin.com/in/patrick-enlow-tech/" target="_blank">
                                         <button type="button" class="button" id="LinkedIn ">
                                             <span class="iconify" data-icon="simple-icons:linkedin" data-inline="false"></span>                   
                                         </button>
