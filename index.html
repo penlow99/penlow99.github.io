@@ -4,51 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patrick Enlow Portfolio</title>
+    <!-- D3, cuz i like it -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <!-- These Bootstraps were made for walkin' -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Iconify for the cool icons at the bottom -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <!-- Googlus Fontificus -->
+    <!-- Googlius Fontificus -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
-    <!-- I like my style...yuk, yuk, yuk -->
+    <!-- I got styles like Miles   :/   well it sounded funnier in my head -->
     <link href="css/styles.css" rel="stylesheet" />
 </head> 
 <body> 
+    <audio id="keystroke">
+        <source src="sounds/keyboard_typing.mp3" type="audio/mpeg">
+    </audio>
     <header id="top-head" class="not-active">
-        <h2>>&nbsp;<span id="typeWriterSpan"></span></h2>
+        <h2>>&nbsp;<span id="typeWriterSpan">To initialize, press [ENTER]</span></h2>
         <!-- &nbsp;&nbsp;><span style="color: #2267b6"> var </span>
         <span style="color: #74aef0">betterCode</span> = 
         <span style="color: #e7e57c">better</span>(<span style="color: #bb7338">"results"</span>);_ -->
     </header>
     <div id="fade-area" class="fade-area" style="height: 100%; text-align: center;">
-        
+ 
     </div>
-    <div class="footer">
-            <button type="button" class="button" title="Home Sweet Home">
-                <a href="#">
-                    <span class="iconify" data-icon="vaadin:home" data-inline="false"></span>
-                </a>
-            </button>
-            <span>&nbsp;&nbsp;</span>
-            <button type="button" class="button" title="Code Projects">
-                <a href="">
-                    <span class="iconify" data-icon="heroicons-solid:code" data-inline="false"></span>
-                </a>
-            </button>
-            <span>&nbsp;&nbsp;</span>
-            <a href="https://github.com/penlow99/">
-                <button type="button" class="button" title="GitHub">
-                    <span class="iconify" data-icon="simple-icons:github" data-inline="false"></span>                   
-                </button>
-            </a>
-            <span>&nbsp;&nbsp;</span>
-            <a href="https://www.google.com">
-                <button type="button" class="button" title="LinkedIn ">
-                    <span class="iconify" data-icon="simple-icons:linkedin" data-inline="false"></span>                   
-                </button>
-            </a>
-    </div> 
+    <button id="clicker" style="display: none;"></button>
 </body>
 <script src="js/fadeContent.js"></script>
 <script src="js/scripts.js"></script>
