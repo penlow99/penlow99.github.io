@@ -1,2 +1,4 @@
 # penlow99.github.io
-Pages Repo
+Thanks for stopping in. If you want to check out the finished product, just click the link below.
+
+https://penlow99.github.io/
