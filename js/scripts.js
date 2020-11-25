@@ -21,10 +21,6 @@ function typeWriter() {
     // another function. Trying to time events in js is really finicky!
     // ###################################################################
 
-    // have to click a hidden button so the DOM is interacted with
-    // otherwise audio won't play
-    document.getElementById("clicker").click();
-
     // make cursor blink for a few seconds
     for (i = 0; i < 5; i++) {
         setTimeout(cursorBlink, secNum) 
@@ -68,7 +64,7 @@ function writeText() {
     // when string is done printing, call fade in function from 'fadeContent.js', and stop typing sound
     if (counterNum2 == strToType.length) {
         typeSound.pause();
-        fadeFunction();
+        setTimeout(fadeFunction, 1000);
     }
 }
 
