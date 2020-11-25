@@ -77,4 +77,4 @@ function randomNum(min, max) {
 //window.onload = setTimeout(typeWriter, 500);
 //window.onload = setTimeout(fadeFunction, 12000);
 document.addEventListener("keyup", typeWriter);
-document.addEventListener("touchstart", typeWriter,false);
+window.addEventListener("touchstart", typeWriter,false);
