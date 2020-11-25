@@ -73,7 +73,5 @@ function randomNum(min, max) {
     return Math.round(Math.random() * (max - min) + min); 
 } 
 
-// have a brief delay before starting so that viewer has time to see blank "terminal"
-//window.onload = setTimeout(typeWriter, 500);
-//window.onload = setTimeout(fadeFunction, 12000);
+// set up a listener to catch keytroke to "Initialize" my silly typing function
 document.addEventListener("keyup", typeWriter);
