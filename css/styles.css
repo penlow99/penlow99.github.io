@@ -12,6 +12,10 @@ html, body {
   position: sticky;
 }
 
+.fade-area {
+  padding-bottom: 20px;
+}
+
 header {
   background-color: black; 
   color:white;
@@ -96,6 +100,10 @@ and (max-device-width : 480px) {
   height: 60px;
   float: left;
   padding: 5px;
+}
+
+.skill-span {
+  text-align: left;
 }
 
 .vertical-flex {
