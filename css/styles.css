@@ -75,7 +75,7 @@ a:hover {
 and (min-device-width : 200px) 
 and (max-device-width : 480px) {
   header {
-    padding-bottom: 50px;
+    height: 140px;
   }
   .brackets {
     font-size: 35px;
