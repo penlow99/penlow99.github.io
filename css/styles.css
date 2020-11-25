@@ -71,7 +71,7 @@ a:hover {
   font-family: 'Source Code Pro', monospace;
 }
 
-@media screen and (max-width: 400px) {
+@media all and (max-width: 400px) {
   .brackets {
     font-size: 35px;
     font-family: 'Source Code Pro', monospace;
