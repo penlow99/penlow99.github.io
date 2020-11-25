@@ -74,6 +74,9 @@ a:hover {
 @media only screen 
 and (min-device-width : 200px) 
 and (max-device-width : 480px) {
+  header {
+    padding-bottom: 50px;
+  }
   .brackets {
     font-size: 35px;
     font-family: 'Source Code Pro', monospace;
