@@ -1,4 +1,4 @@
-var fadeElement = document.getElementById("fade-area");
+var fadeElement = document.getElementById("fade-area"); 
 function fadeFunction() {
     document.getElementById("body-tag").style.backgroundColor = "white";
     fadeElement.innerHTML = `

@@ -26,7 +26,7 @@ header {
 .footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0; 
   height: 50px;
   width: 100%;
   color: white;
@@ -69,6 +69,13 @@ a:hover {
 .brackets {
   font-size: 75px;
   font-family: 'Source Code Pro', monospace;
+}
+
+@media screen and (max-width: 400px) {
+  .brackets {
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
+  }
 }
 
 .flexbox-container {
