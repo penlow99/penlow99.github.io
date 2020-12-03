@@ -18,20 +18,22 @@ var fadeElement = document.getElementById("fade-area");
 
 // Blinking cursor and typewriter effect
 function typeWriter() { 
-    window.setInterval(function() {
-        if (cursorBool === true) {
-            cursor.setAttribute('style', 'display:inline');
-            cursorBool = false;
-        } else {
-            cursor.setAttribute('style', 'display:none');
-            cursorBool = true;
+    if (stillTrue) {
+        stillTrue = false;
+        window.setInterval(function() {
+            if (cursorBool === true) {
+                cursor.setAttribute('style', 'display:inline');
+                cursorBool = false;
+            } else {
+                cursor.setAttribute('style', 'display:none');
+                cursorBool = true;
+            }
+        }, 500)
+        // print the string with varying frequency so it looks like real typing
+        for (i = 0; i < strToType.length; i++) {
+            setTimeout(writeText, secNum); 
+            secNum = secNum + randomNum(50, 275);
         }
-    }, 500)
-
-    // print the string with varying frequency so it looks like real typing
-    for (i = 0; i < strToType.length; i++) {
-        setTimeout(writeText, secNum); 
-        secNum = secNum + randomNum(50, 275);
     }
   }
 // -----------------------------------------------------------------------
