@@ -4,16 +4,25 @@ html, body {
   min-width: 250px;
 } 
 
-#top-head {
+
+#consoleDiv {
   color: white;
   font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+  display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+  #consoleDiv {
+    font-size: 18px;
+  }
 }
 
 .main-content {
   text-align: center;
   background-color: white;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 60px;
   position: sticky;
 }
 
@@ -25,11 +34,11 @@ html, body {
 header {
   background-color: black; 
   color:white;
-  padding: 30px;
+  padding: 10px;
   position: fixed;
   top: 0;
   left: 0;
-  height: 100px;
+  height: 60px;
   width: 100%;
 }
 
@@ -44,6 +53,10 @@ header {
   background-color:black;
   vertical-align: baseline;
   padding: 4px;
+}
+
+#cursor {
+  display: none;
 }
 
 .button {
