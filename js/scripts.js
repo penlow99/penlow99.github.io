@@ -1,4 +1,4 @@
-var strToType = "if (writing('betterCode') == better.Results) {";
+var strToType = "if (writing['betterCode'] === better.Results) {";
 var newString = "";
 var stillTrue = true;
 var cursorBool = true;
